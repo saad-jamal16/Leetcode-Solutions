@@ -3,7 +3,7 @@ class Solution {
         int res = 0;
         int cur = 0;
         for(char i : s.toCharArray()){
-            if(i == '(' ){
+            if(i == '('){
                 cur += 1;
             }else if(i == ')'){
                 cur -= 1;
