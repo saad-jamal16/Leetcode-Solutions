@@ -1,33 +1,35 @@
 class Solution {
     public String decodeString(String s) {
         Stack<Integer> numStack = new Stack<>();
-        Stack<String> sStack = new Stack<>();
-        int k = 0;
-        for(int i = 0; i<s.length(); i++){
-            String ch = "" +s.charAt(i);
-            char ch1 = s.charAt(i);
-            if(Character.isDigit(ch1)) k = (k * 10) + (ch1 - '0');
-            else if(!ch.equals("]")){
-                if(ch.equals("[")){
-                    numStack.push(k);
-                    k = 0;
+        Stack<StringBuilder> strStack = new Stack<>();
+        // to hold the temporary string build stringbuilder
+        StringBuilder str = new StringBuilder();
+        int num = 0;
+        
+        for(char c: s.toCharArray()){
+            // 4 type of char is present on the question => digit,alphabet,[,];
+            if(c >= '0' && c <='9'){
+                 num = num*10 + c-'0'; 
+            }
+            else if(c =='['){
+                strStack.push(str);
+                str = new StringBuilder();
+                numStack.push(num);
+                num = 0;
+            }
+            else if(c ==']'){
+                StringBuilder temp = str;
+                str = strStack.pop();
+                int count = numStack.pop();
+                
+                while(count --> 0){
+                    str.append(temp);
                 }
-                sStack.push(ch);
             }
             else{
-                String str  = "";
-                while(!sStack.peek().equals("[")) str = sStack.pop() + str;
-                sStack.pop();
-                int num = numStack.pop();
-                sStack.push(str.repeat(num));
+                str.append(c);
             }
         }
-        String s2 = "";
-        while(!sStack.empty()){
-            String s1 = sStack.pop();
-            s2 = s1 + s2;
-        }
-        return s2;
-        
+        return str.toString();
     }
 }
