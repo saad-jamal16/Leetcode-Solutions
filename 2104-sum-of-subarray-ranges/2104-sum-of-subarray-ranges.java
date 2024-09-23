@@ -1,12 +1,12 @@
 class Solution {
-    public long subArrayRanges(int[] A) {
+    public long subArrayRanges(int[] nums) {
      
         long res = 0;
-        for (int i = 0; i < A.length; i++) {
-            int max = A[i], min = A[i];
-            for (int j = i; j < A.length; j++) {
-                max = Math.max(max, A[j]);
-                min = Math.min(min, A[j]);
+        for (int i = 0; i < nums.length; i++) {
+            int max = nums[i], min = nums[i];
+            for (int j = i; j < nums.length; j++) {
+                max = Math.max(max, nums[j]);
+                min = Math.min(min, nums[j]);
                 res += max - min;
             }
         }
