@@ -3,7 +3,7 @@ class FrontMiddleBackQueue {
 
     public FrontMiddleBackQueue() {
         // iniailzed LinkedList
-        que = new LinkedList<>();
+        this.que = new LinkedList<>();
         
     }
     
