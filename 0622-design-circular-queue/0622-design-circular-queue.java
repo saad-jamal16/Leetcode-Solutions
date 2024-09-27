@@ -1,5 +1,5 @@
 class MyCircularQueue {
-    Queue<Integer> nm = new LinkedList<>();
+    Queue<Integer> que = new LinkedList<>();
     int s;
 
     public MyCircularQueue(int k) {
@@ -8,40 +8,40 @@ class MyCircularQueue {
     }
     
     public boolean enQueue(int value) {
-        if(nm.size() == s)
+        if(que.size() == s)
             return false;
-        nm.offer(value);
+        que.offer(value);
             return true; 
     }
     
     public boolean deQueue() {
-        if(nm.size() == 0)
+        if(que.size() == 0)
             return false;
-        nm.poll();
+        que.poll();
             return true;
         
     }
-    
+    // gets the front item from the que:
     public int Front() {
-        return nm.size() == 0? -1 : nm.peek();
+        return que.size() == 0? -1 : que.peek();
         
     }
-    
+    // gets the last item from the queue
     public int Rear() {
-        if(nm.size() == 0)
+        if(que.size() == 0)
             return - 1;
-        List<Integer> kk = (List)nm;
+        List<Integer> kk = (List)que;
         int  p = kk.get(kk.size() - 1);
         return p;
     }
-    
+    // checks whether empty circular queue is empty or not
     public boolean isEmpty() {
-        return nm.size() == 0;
+        return que.size() == 0;
         
     }
-    
+    // checks whether the circular queue is  full ot not
     public boolean isFull() {
-        return nm.size() == s;
+        return que.size() == s;
         
     }
 }
