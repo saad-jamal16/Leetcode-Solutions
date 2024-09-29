@@ -1,19 +1,19 @@
 class Solution {
     public String frequencySort(String s) {
        // Count the occurence on each character
-	HashMap<Character, Integer> cnt = new HashMap<>();
+	HashMap<Character, Integer> freq = new HashMap<>();
 	for (char c : s.toCharArray()) {
-		cnt.put(c, cnt.getOrDefault(c, 0) + 1);
+		freq.put(c, freq.getOrDefault(c, 0) + 1);
 	}
 	
 	// Sorting
-	List<Character> chars = new ArrayList(cnt.keySet());
-	Collections.sort(chars, (a, b) -> (cnt.get(b) - cnt.get(a)));
+	List<Character> chars = new ArrayList(freq.keySet());
+	Collections.sort(chars, (a, b) -> (freq.get(b) - freq.get(a)));
 
 	// Build string
 	StringBuilder sb = new StringBuilder();
 	for (Object c : chars) {
-		for (int i = 0; i < cnt.get(c); i++) {
+		for (int i = 0; i < freq.get(c); i++) {
 			sb.append(c);
 		}
 	}
