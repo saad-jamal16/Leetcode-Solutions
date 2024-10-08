@@ -14,16 +14,14 @@ class Solution {
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
         ListNode curr = dummy;
-        //check if value matches
         while(curr.next != null){
             if(curr.next.val == val){
                 curr.next = curr.next.next;
-            }else{
+            }
+            else{
                 curr = curr.next;
             }
         }
-        //retrun head
         return dummy.next;
-        
     }
 }
