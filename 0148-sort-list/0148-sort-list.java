@@ -10,29 +10,40 @@
  */
 class Solution {
     public ListNode sortList(ListNode head) {
-        // inialized count to store values and temp as start node
-        int count = 0;
-        ListNode temp = head;
-        while(temp != null){
-            count++;
+        if(head == null || head.next == null){
+            return head;
+        }
+        ListNode fast = head;
+        ListNode slow = head;
+        ListNode prev = null;
+        while(fast != null && fast.next != null){
+            prev = slow;
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        prev.next = null;
+        ListNode left = sortList(head);
+        ListNode right = sortList(slow);
+        return merge(left,right);
+    }
+    public static ListNode merge(ListNode left, ListNode right){
+        ListNode dummy = new ListNode(-1),temp = dummy;
+        while(left != null && right != null){
+            if(left.val <= right.val){
+                temp.next = left;
+                left = left.next;
+            }else if(right.val < left.val){
+                temp.next = right;
+                right = right.next;
+            }
             temp = temp.next;
         }
-        // inialized arrays to store all elements in arrays so that sorting becomes easy
-        int []arr = new int[count];
-        count = 0;
-        temp = head;
-        while(temp != null){
-            arr[count++] = temp.val;
-            temp = temp.next;
+        if(left != null){
+            temp.next = left;
         }
-        // direcly sorted the array
-        Arrays.sort(arr);
-        temp = head;
-        count = 0;
-        while(temp != null){
-            temp.val = arr[count++];
-            temp = temp.next;
+        if(right != null){
+            temp.next = right;
         }
-        return head;
+        return dummy.next;
     }
 }
