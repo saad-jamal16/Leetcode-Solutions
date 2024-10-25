@@ -1,23 +1,16 @@
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
-        int minlenwindow = Integer.MAX_VALUE;
-        int currentsum = 0;
-        //start two pointers 
-        int low = 0;
-        int high = 0;
-        while(high < nums.length){
-            //find the current sum and increment window size
-            currentsum += nums[high];
-            high++;
-            // try to reduce the window size:
-            while(currentsum >= target){
-                int currentwindowsize = high-low;
-                // update the minimum length of 
-                minlenwindow = Math.min(minlenwindow,currentwindowsize);
-                currentsum -= nums[low];
-                low++;
-            }
+       
+    int left = 0, sum = 0, minLength = Integer.MAX_VALUE;
+    for (int right = 0; right < nums.length; right++) {
+        sum += nums[right];
+        while (sum >= target) {
+            minLength = Math.min(minLength, right - left + 1);
+            sum -= nums[left];
+            left++;
         }
-        return minlenwindow == Integer.MAX_VALUE ? 0: minlenwindow;
     }
+    return minLength == Integer.MAX_VALUE ? 0 : minLength;
+}
+
 }
