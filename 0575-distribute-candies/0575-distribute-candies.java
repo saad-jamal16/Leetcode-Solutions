@@ -4,13 +4,13 @@ class Solution {
         for(int candy : candyType){
             set.add(candy);
         }
-        int candyCount = set.size();
-        int maxCandies = candyType.length/2;
+        int countCandy = set.size();
+        int maxCandy = candyType.length/2;
         
-        if(candyCount < maxCandies){
-            return candyCount;
+        if(countCandy < maxCandy){
+            return countCandy;
         }else{
-            return maxCandies;
+            return maxCandy;
         }
     }
 }
