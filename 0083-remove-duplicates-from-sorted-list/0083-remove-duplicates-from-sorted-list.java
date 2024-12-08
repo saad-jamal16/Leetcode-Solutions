@@ -23,10 +23,9 @@ class Solution {
             prev.next = temp;
             prev = temp;
             temp = temp.next;
+            
         }
-        prev.next = null;
+        prev.next = temp;
         return head;
-        
-        
     }
 }
