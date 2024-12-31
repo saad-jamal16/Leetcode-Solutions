@@ -1,31 +1,24 @@
 class Solution {
     public int numSubarrayProductLessThanK(int[] nums, int k) {
-         int right = 0;
-        int left = 0;
-        int prod = 1;
+        if (k <= 1) return 0; // If k is 0 or 1, no product can be less than k.
+
         int count = 0;
-        
-        int n = nums.length;
-        if (k <= 1) {
-            return 0;
-        }
-        
-        while (right < n) {
-            prod *= nums[right];
-            
+        int product = 1; // Initialize prefix product
+        int left = 0; // Sliding window's left pointer
+
+        for (int right = 0; right < nums.length; right++) {
+            product *= nums[right]; // Include nums[right] in the product
+
             // Shrink the window until the product is less than k
-            while (prod >= k && left <= right) {
-                prod /= nums[left++];
+            while (product >= k && left <= right) {
+                product /= nums[left];
+                left++;
             }
-            
-            // If the product is less than k, count the subarrays
+
+            // All subarrays ending at `right` with a start between `left` and `right` are valid
             count += (right - left + 1);
-            
-            // Move the right pointer to the next element
-            right++;
         }
-        
+
         return count;
     }
 }
-    
