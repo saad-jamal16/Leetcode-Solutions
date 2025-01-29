@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/design-hashset/">705. Design HashSet</a></h2><h3>Easy</h3><hr><div><p>Design a HashSet without using any built-in hash table libraries.</p>
+<h2><a href="https://leetcode.com/problems/design-hashset">705. Design HashSet</a></h2><h3>Easy</h3><hr><p>Design a HashSet without using any built-in hash table libraries.</p>
 
 <p>Implement <code>MyHashSet</code> class:</p>
 
@@ -11,8 +11,9 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input</strong>
-["MyHashSet", "add", "add", "contains", "contains", "add", "contains", "remove", "contains"]
+<pre>
+<strong>Input</strong>
+[&quot;MyHashSet&quot;, &quot;add&quot;, &quot;add&quot;, &quot;contains&quot;, &quot;contains&quot;, &quot;add&quot;, &quot;contains&quot;, &quot;remove&quot;, &quot;contains&quot;]
 [[], [1], [2], [1], [3], [2], [2], [2], [2]]
 <strong>Output</strong>
 [null, null, null, true, false, null, true, null, false]
@@ -35,4 +36,3 @@ myHashSet.contains(2); // return False, (already removed)</pre>
 	<li><code>0 &lt;= key &lt;= 10<sup>6</sup></code></li>
 	<li>At most <code>10<sup>4</sup></code> calls will be made to <code>add</code>, <code>remove</code>, and <code>contains</code>.</li>
 </ul>
-</div>
