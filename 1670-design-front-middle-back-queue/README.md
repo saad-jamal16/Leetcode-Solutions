@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/design-front-middle-back-queue/">1670. Design Front Middle Back Queue</a></h2><h3>Medium</h3><hr><div><p>Design a queue that supports <code>push</code> and <code>pop</code> operations in the front, middle, and back.</p>
+<h2><a href="https://leetcode.com/problems/design-front-middle-back-queue">1670. Design Front Middle Back Queue</a></h2><h3>Medium</h3><hr><p>Design a queue that supports <code>push</code> and <code>pop</code> operations in the front, middle, and back.</p>
 
 <p>Implement the <code>FrontMiddleBack</code> class:</p>
 
@@ -22,8 +22,9 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong>
-["FrontMiddleBackQueue", "pushFront", "pushBack", "pushMiddle", "pushMiddle", "popFront", "popMiddle", "popMiddle", "popBack", "popFront"]
+<pre>
+<strong>Input:</strong>
+[&quot;FrontMiddleBackQueue&quot;, &quot;pushFront&quot;, &quot;pushBack&quot;, &quot;pushMiddle&quot;, &quot;pushMiddle&quot;, &quot;popFront&quot;, &quot;popMiddle&quot;, &quot;popMiddle&quot;, &quot;popBack&quot;, &quot;popFront&quot;]
 [[], [1], [2], [3], [4], [], [], [], [], []]
 <strong>Output:</strong>
 [null, null, null, null, null, 1, 3, 4, 2, -1]
@@ -48,4 +49,3 @@ q.popFront();     // return -1 -&gt; [] (The queue is empty)
 	<li><code>1 &lt;= val &lt;= 10<sup>9</sup></code></li>
 	<li>At most&nbsp;<code>1000</code>&nbsp;calls will be made to&nbsp;<code>pushFront</code>,&nbsp;<code>pushMiddle</code>,&nbsp;<code>pushBack</code>, <code>popFront</code>, <code>popMiddle</code>, and <code>popBack</code>.</li>
 </ul>
-</div>
