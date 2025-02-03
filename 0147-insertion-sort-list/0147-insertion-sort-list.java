@@ -12,12 +12,12 @@ class Solution {
     public ListNode insertionSortList(ListNode head) {
        ListNode curr = head, next = null;
        // l is a fake head
-      ListNode l = new ListNode(0);
+      ListNode fake = new ListNode(0);
   
   while (curr != null) {
     next = curr.next;
     
-    ListNode p = l;
+    ListNode p = fake;
     while (p.next != null && p.next.val < curr.val)
       p = p.next;
     
@@ -27,6 +27,6 @@ class Solution {
     curr = next;
   }
   
-  return l.next; 
+  return fake.next; 
     }
 }
