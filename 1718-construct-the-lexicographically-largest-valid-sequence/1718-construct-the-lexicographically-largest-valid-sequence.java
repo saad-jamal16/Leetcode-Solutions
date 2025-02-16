@@ -1,39 +1,39 @@
 class Solution {
-    private int[] res;
-
     public int[] constructDistancedSequence(int n) {
-        res = null;
-        int[] arr = new int[2 * n - 1];
+        int[] result = new int[2 * n - 1];
         boolean[] used = new boolean[n + 1];
-        backtrack(n, 0, arr, used);
-        return res;
+        backtrack(result, used, n, 0);
+        return result;
     }
-
-    private boolean backtrack(int n, int l, int[] arr, boolean[] used) {
-        if (l == arr.length) {
-            res = arr.clone();
+    private boolean backtrack(int[] result, boolean[] used, int n, int index){
+        while(index < result.length && result[index] != 0){
+            index++;
+        }
+        if(index == result.length){
             return true;
         }
+        for(int i = n; i >= 1; i--){
+            if(used[i]) continue;
 
-        if (arr[l] != 0) return backtrack(n, l + 1, arr, used); // Skip occupied
-
-        for (int num = n; num >= 1; num--) {
-            if (used[num]) continue;
-
-            int r = (num == 1) ? l : l + num;
-            if (r < arr.length && arr[r] == 0) {
-                arr[l] = num;
-                arr[r] = num;
-                used[num] = true;
-
-                if (backtrack(n, l + 1, arr, used)) return true;
-
-                arr[l] = 0;
-                arr[r] = 0;
-                used[num] = false;
+            if(i == 1){
+                result[index] = 1;
+                used[1] = true;
+                if(backtrack(result, used, n, index + 1)) return true;
+                result[index] = 0;
+                used[1] = false;
+            }
+            else{
+                if(index + i < result.length && result[index + i] == 0){
+                    result[index] = i;
+                    result[index + i] = i;
+                    used[i] = true;
+                    if(backtrack(result, used, n, index + 1)) return true;
+                    result[index] = 0;
+                    result[index + i] = 0;
+                    used[i] = false;
+                }
             }
         }
-
         return false;
     }
 }
