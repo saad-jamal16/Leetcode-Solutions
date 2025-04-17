@@ -1,8 +1,9 @@
-<h2><a href="https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/">2176. Count Equal and Divisible Pairs in an Array</a></h2><h3>Easy</h3><hr><div>Given a <strong>0-indexed</strong> integer array <code>nums</code> of length <code>n</code> and an integer <code>k</code>, return <em>the <strong>number of pairs</strong></em> <code>(i, j)</code> <em>where</em> <code>0 &lt;= i &lt; j &lt; n</code>, <em>such that</em> <code>nums[i] == nums[j]</code> <em>and</em> <code>(i * j)</code> <em>is divisible by</em> <code>k</code>.
+<h2><a href="https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array">2176. Count Equal and Divisible Pairs in an Array</a></h2><h3>Easy</h3><hr>Given a <strong>0-indexed</strong> integer array <code>nums</code> of length <code>n</code> and an integer <code>k</code>, return <em>the <strong>number of pairs</strong></em> <code>(i, j)</code> <em>where</em> <code>0 &lt;= i &lt; j &lt; n</code>, <em>such that</em> <code>nums[i] == nums[j]</code> <em>and</em> <code>(i * j)</code> <em>is divisible by</em> <code>k</code>.
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> nums = [3,1,2,2,2,1,3], k = 2
+<pre>
+<strong>Input:</strong> nums = [3,1,2,2,2,1,3], k = 2
 <strong>Output:</strong> 4
 <strong>Explanation:</strong>
 There are 4 pairs that meet all the requirements:
@@ -14,7 +15,8 @@ There are 4 pairs that meet all the requirements:
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> nums = [1,2,3,4], k = 1
+<pre>
+<strong>Input:</strong> nums = [1,2,3,4], k = 1
 <strong>Output:</strong> 0
 <strong>Explanation:</strong> Since no value in nums is repeated, there are no pairs (i,j) that meet all the requirements.
 </pre>
@@ -26,4 +28,3 @@ There are 4 pairs that meet all the requirements:
 	<li><code>1 &lt;= nums.length &lt;= 100</code></li>
 	<li><code>1 &lt;= nums[i], k &lt;= 100</code></li>
 </ul>
-</div>
