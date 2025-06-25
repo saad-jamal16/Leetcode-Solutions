@@ -1,38 +1,32 @@
 class MinStack {
-    // creating two stack
-    Stack<Integer> stack = new Stack();
-    Stack<Integer> minStack = new Stack();
+    Stack<Integer> stack;
+    Stack<Integer> minStack;
 
     public MinStack() {
-        
+        stack = new Stack<>();
+        minStack = new Stack<>();
     }
     
     public void push(int val) {
-        //first time insert but if new min found add to minStack
+        stack.push(val);
         if(minStack.isEmpty() || val <= minStack.peek()){
             minStack.push(val);
         }
-        stack.push(val);
     }
-    // to remove element on the top of stack:
+    
     public void pop() {
-        if(stack.peek().equals(minStack.peek())){
-            minStack.pop();
-        }
-        stack.pop();
-        
+       int poppedValue = stack.pop();
+       if(poppedValue == minStack.peek()){
+        minStack.pop();
+       }
     }
-    //gets the top element of stack:
     
     public int top() {
-        return stack.peek();
-        
+       return stack.peek();
     }
-    //get the minimum elements in the stack
     
     public int getMin() {
         return minStack.peek();
-        
     }
 }
 
