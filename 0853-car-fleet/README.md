@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/car-fleet/">853. Car Fleet</a></h2><h3>Medium</h3><hr><div><p>There are <code>n</code> cars at given miles away from the starting mile 0, traveling to reach the mile <code>target</code>.</p>
+<h2><a href="https://leetcode.com/problems/car-fleet">853. Car Fleet</a></h2><h3>Medium</h3><hr><p>There are <code>n</code> cars at given miles away from the starting mile 0, traveling to reach the mile <code>target</code>.</p>
 
 <p>You are given two integer array <code>position</code> and <code>speed</code>, both of length <code>n</code>, where <code>position[i]</code> is the starting mile of the <code>i<sup>th</sup></code> car and <code>speed[i]</code> is the speed of the <code>i<sup>th</sup></code> car in miles per hour.</p>
 
@@ -63,4 +63,3 @@ There is only one car, hence there is only one fleet.</div>
 	<li>All the values of <code>position</code> are <strong>unique</strong>.</li>
 	<li><code>0 &lt; speed[i] &lt;= 10<sup>6</sup></code></li>
 </ul>
-</div>
