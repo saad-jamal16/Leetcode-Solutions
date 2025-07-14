@@ -16,7 +16,6 @@ class Solution {
             res += head.val;
             head = head.next;
         }
-    return res;
-        
+        return res;
     }
 }
