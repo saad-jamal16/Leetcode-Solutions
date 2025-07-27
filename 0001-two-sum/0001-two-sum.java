@@ -7,7 +7,7 @@ class Solution {
             if(map.containsKey(diff)){
                 return new int[] {map.get(diff),i};
             }
-            map.put(num,i);
+            map.get(num,i);
         }
         return new int[] {};
     }
