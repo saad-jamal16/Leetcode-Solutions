@@ -1,57 +1,42 @@
+import java.util.PriorityQueue;
+
 class Solution {
     public int trapRainWater(int[][] heightMap) {
-                int m=heightMap.length;
-        int n=heightMap[0].length;
-        boolean[][] visited=new boolean[m][n];
+        int m = heightMap.length, n = heightMap[0].length;
+        if (m < 3 || n < 3)
+            return 0;
 
-        PriorityQueue<int[]> pq=new PriorityQueue<>((a,b)->a[0]-b[0]);
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
+        boolean[][] visited = new boolean[m][n];
 
-        //Set the boundary element as visited
-        for(int i=0; i<m; i++){
-            for(int j=0; j<n; j++){
-                if(i==0 || i==m-1 || j==0 || j==n-1){
-                    pq.add(new int[]{heightMap[i][j], i, j});
-                    visited[i][j]=true;
+        for (int i = 0; i < m; i++) {
+            pq.offer(new int[] { heightMap[i][0], i, 0 });
+            pq.offer(new int[] { heightMap[i][n - 1], i, n - 1 });
+            visited[i][0] = visited[i][n - 1] = true;
+        }
+        for (int j = 0; j < n; j++) {
+            pq.offer(new int[] { heightMap[0][j], 0, j });
+            pq.offer(new int[] { heightMap[m - 1][j], m - 1, j });
+            visited[0][j] = visited[m - 1][j] = true;
+        }
+
+        int result = 0;
+        int[][] directions = { { 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
+
+        while (!pq.isEmpty()) {
+            int[] cell = pq.poll();
+            int height = cell[0], x = cell[1], y = cell[2];
+
+            for (int[] dir : directions) {
+                int nx = x + dir[0], ny = y + dir[1];
+                if (nx >= 0 && ny >= 0 && nx < m && ny < n && !visited[nx][ny]) {
+                    result += Math.max(0, height - heightMap[nx][ny]);
+                    pq.offer(new int[] { Math.max(height, heightMap[nx][ny]), nx, ny });
+                    visited[nx][ny] = true;
                 }
             }
         }
 
-
-        int[][] direction={ {0,1}, {0,-1}, {1,0}, {-1,0} };
-
-        int waterVolume=0;
-
-        //Applying the BFS Traversal
-        while(!pq.isEmpty()){
-            int[] arr=pq.poll();
-            int cv=arr[0];    //Curr value
-            int cr=arr[1];    //Curr row
-            int cc=arr[2];    //Curr column
-
-            //Visiting the adjacent elemetns of current element
-            for(int[] dir:direction){
-                int nr=cr+dir[0];   //New row
-                int nc=cc+dir[1];   //New column    
-
-                // Checking the element is within row, column and not visited
-                if(nr>=0 && nr<m && nc>=0 && nc<n && !visited[nr][nc]){
-                    
-                    //volume of water it can trap after raining.
-                    if(cv-heightMap[nr][nc]>0){
-                        waterVolume+=cv-heightMap[nr][nc];
-                        pq.add(new int[]{cv, nr, nc});
-                    }
-                    else{
-                        pq.add(new int[]{heightMap[nr][nc], nr, nc});
-                    }
-
-                    visited[nr][nc]=true;
-                }
-                
-            }
-        }
-
-        return waterVolume;
-
+        return result;
     }
 }
