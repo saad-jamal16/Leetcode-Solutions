@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/make-array-elements-equal-to-zero/">3354. Make Array Elements Equal to Zero</a></h2><h3>Easy</h3><hr><div><p>You are given an integer array <code>nums</code>.</p>
+<h2><a href="https://leetcode.com/problems/make-array-elements-equal-to-zero">3354. Make Array Elements Equal to Zero</a></h2><h3>Easy</h3><hr><p>You are given an integer array <code>nums</code>.</p>
 
 <p>Start by selecting a starting position <code>curr</code> such that <code>nums[curr] == 0</code>, and choose a movement <strong>direction</strong> of&nbsp;either left or right.</p>
 
@@ -67,4 +67,3 @@
 	<li><code>0 &lt;= nums[i] &lt;= 100</code></li>
 	<li>There is at least one element <code>i</code> where <code>nums[i] == 0</code>.</li>
 </ul>
-</div>
