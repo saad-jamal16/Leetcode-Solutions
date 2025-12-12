@@ -50,6 +50,6 @@ class Solution {
             }
         }
 
-        return mention;
+        return mentions;
     }
 }
