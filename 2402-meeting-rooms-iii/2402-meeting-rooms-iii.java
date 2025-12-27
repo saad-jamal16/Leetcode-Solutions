@@ -7,7 +7,7 @@ class Solution {
             (a, b) -> a[0] == b[0] ? Long.compare(a[1], b[1]) : Long.compare(a[0], b[0])
         );
 
-        int[] cnt = new int[n+1];
+        int[] cnt = new int[n];
 
         for (int i = 0; i < n; i++) free.offer(i);
 
