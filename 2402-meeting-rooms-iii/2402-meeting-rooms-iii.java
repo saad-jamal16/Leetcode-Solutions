@@ -1,42 +1,38 @@
 class Solution {
     public int mostBooked(int n, int[][] meetings) {
-        int[] count = new int[n];       // Count of meetings per room
-        long[] busy = new long[n];      // When each room becomes free
-
         Arrays.sort(meetings, (a, b) -> a[0] - b[0]);
 
-        for (int[] meeting : meetings) {
-            int start = meeting[0], end = meeting[1];
-            long earliest = Long.MAX_VALUE;
-            int roomIndex = -1;
-            boolean assigned = false;
+        PriorityQueue<Integer> free = new PriorityQueue<>();
+        PriorityQueue<long[]> busy = new PriorityQueue<>(
+            (a, b) -> a[0] == b[0] ? Long.compare(a[1], b[1]) : Long.compare(a[0], b[0])
+        );
 
-            for (int i = 0; i < n; i++) {
-                if (busy[i] < earliest) {
-                    earliest = busy[i];
-                    roomIndex = i;
-                }
-                if (busy[i] <= start) {
-                    busy[i] = end;
-                    count[i]++;
-                    assigned = true;
-                    break;
-                }
+        int[] cnt = new int[n+1];
+
+        for (int i = 0; i < n; i++) free.offer(i);
+
+        for (int[] m : meetings) {
+            long s = m[0], d = m[1] - m[0];
+
+            while (!busy.isEmpty() && busy.peek()[0] <= s) {
+                free.offer((int) busy.poll()[1]);
             }
 
-            if (!assigned) {
-                busy[roomIndex] += (end - start);
-                count[roomIndex]++;
-            }
-        }
-
-        int max = 0, res = 0;
-        for (int i = 0; i < n; i++) {
-            if (count[i] > max) {
-                max = count[i];
-                res = i;
+            if (!free.isEmpty()) {
+                int r = free.poll();
+                busy.offer(new long[]{m[1], r});
+                cnt[r]++;
+            } else {
+                long[] x = busy.poll();
+                busy.offer(new long[]{x[0] + d, x[1]});
+                cnt[(int) x[1]]++;
             }
         }
-        return res; 
+
+        int ans = 0;
+        for (int i = 1; i < n; i++) {
+            if (cnt[i] > cnt[ans]) ans = i;
+        }
+        return ans;
     }
 }
