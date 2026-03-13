@@ -25,10 +25,12 @@ Optimized solutions (if applicable).
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1980-find-unique-binary-string/) | Medium |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Matrix
 | Problem Name | Difficulty |
@@ -80,6 +82,7 @@ Optimized solutions (if applicable).
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Union-Find
 | Problem Name | Difficulty |
@@ -93,4 +96,12 @@ Optimized solutions (if applicable).
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 <!---LeetCode Topics End-->
