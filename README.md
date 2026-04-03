@@ -35,6 +35,7 @@ Optimized solutions (if applicable).
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -87,6 +88,7 @@ Optimized solutions (if applicable).
 | [2573-find-the-string-with-lcp](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3130-find-all-possible-stable-binary-arrays-ii/) | Hard |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -120,6 +122,7 @@ Optimized solutions (if applicable).
 | ------- | ------- |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -159,6 +162,7 @@ Optimized solutions (if applicable).
 | [1727-largest-submatrix-with-rearrangements](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
