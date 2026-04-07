@@ -81,6 +81,7 @@ Optimized solutions (if applicable).
 | ------- | ------- |
 | [0657-robot-return-to-origin](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/0657-robot-return-to-origin/) | Easy |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
+| [2069-walking-robot-simulation-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2069-walking-robot-simulation-ii/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -154,6 +155,7 @@ Optimized solutions (if applicable).
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1622-fancy-sequence](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1622-fancy-sequence/) | Hard |
+| [2069-walking-robot-simulation-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2069-walking-robot-simulation-ii/) | Medium |
 ## Segment Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
