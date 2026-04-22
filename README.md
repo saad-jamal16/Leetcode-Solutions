@@ -29,6 +29,7 @@ Optimized solutions (if applicable).
 | [1727-largest-submatrix-with-rearrangements](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2452-words-within-two-edits-of-dictionary](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2906-construct-product-matrix](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2906-construct-product-matrix/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
@@ -69,6 +70,7 @@ Optimized solutions (if applicable).
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2452-words-within-two-edits-of-dictionary](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
@@ -182,4 +184,8 @@ Optimized solutions (if applicable).
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2452-words-within-two-edits-of-dictionary](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 <!---LeetCode Topics End-->
