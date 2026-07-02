@@ -38,6 +38,7 @@ Optimized solutions (if applicable).
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
@@ -64,6 +65,7 @@ Optimized solutions (if applicable).
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -147,6 +149,7 @@ Optimized solutions (if applicable).
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Minimum Spanning Tree
 | Problem Name | Difficulty |
@@ -165,6 +168,7 @@ Optimized solutions (if applicable).
 | ------- | ------- |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 ## Design
 | Problem Name | Difficulty |
@@ -202,4 +206,9 @@ Optimized solutions (if applicable).
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
+## Shortest Path
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 <!---LeetCode Topics End-->
