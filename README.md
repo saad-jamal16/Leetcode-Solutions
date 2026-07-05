@@ -23,6 +23,7 @@ Optimized solutions (if applicable).
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
+| [1301-number-of-paths-with-max-score](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1301-number-of-paths-with-max-score/) | Hard |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
@@ -54,6 +55,7 @@ Optimized solutions (if applicable).
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1301-number-of-paths-with-max-score](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1301-number-of-paths-with-max-score/) | Hard |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
@@ -95,6 +97,7 @@ Optimized solutions (if applicable).
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1301-number-of-paths-with-max-score](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1301-number-of-paths-with-max-score/) | Hard |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
