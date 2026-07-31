@@ -56,6 +56,7 @@ Optimized solutions (if applicable).
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3474-lexicographically-smallest-generated-string](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
@@ -92,6 +93,7 @@ Optimized solutions (if applicable).
 | [2573-find-the-string-with-lcp](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3474-lexicographically-smallest-generated-string](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
 | [3499-maximize-active-section-with-trade-i](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3499-maximize-active-section-with-trade-i/) | Medium |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3501-maximize-active-section-with-trade-ii/) | Hard |
@@ -129,6 +131,7 @@ Optimized solutions (if applicable).
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3532-path-existence-queries-in-a-graph-i/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
@@ -220,6 +223,7 @@ Optimized solutions (if applicable).
 | [1727-largest-submatrix-with-rearrangements](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
 | [3536-maximum-product-of-two-digits](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3536-maximum-product-of-two-digits/) | Easy |
@@ -267,5 +271,6 @@ Optimized solutions (if applicable).
 ## Counting Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
 <!---LeetCode Topics End-->
