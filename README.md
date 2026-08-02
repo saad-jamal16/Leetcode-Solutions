@@ -25,6 +25,7 @@ Optimized solutions (if applicable).
 | [0033-search-in-rotated-sorted-array](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0486-predict-the-winner](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/0486-predict-the-winner/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
+| [0877-stone-game](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/0877-stone-game/) | Medium |
 | [1260-shift-2d-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1260-shift-2d-grid/) | Easy |
 | [1301-number-of-paths-with-max-score](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1301-number-of-paths-with-max-score/) | Hard |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
@@ -116,6 +117,7 @@ Optimized solutions (if applicable).
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/0486-predict-the-winner/) | Medium |
+| [0877-stone-game](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/0877-stone-game/) | Medium |
 | [1301-number-of-paths-with-max-score](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1301-number-of-paths-with-max-score/) | Hard |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
@@ -194,6 +196,7 @@ Optimized solutions (if applicable).
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/0486-predict-the-winner/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
+| [0877-stone-game](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/0877-stone-game/) | Medium |
 | [1622-fancy-sequence](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1622-fancy-sequence/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
@@ -281,4 +284,5 @@ Optimized solutions (if applicable).
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/0486-predict-the-winner/) | Medium |
+| [0877-stone-game](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/0877-stone-game/) | Medium |
 <!---LeetCode Topics End-->
