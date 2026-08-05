@@ -186,6 +186,7 @@ Optimized solutions (if applicable).
 | ------- | ------- |
 | [2685-count-the-number-of-complete-components](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2685-count-the-number-of-complete-components/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
+| [3310-remove-methods-from-project](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3310-remove-methods-from-project/) | Medium |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3532-path-existence-queries-in-a-graph-i/) | Medium |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
@@ -252,6 +253,7 @@ Optimized solutions (if applicable).
 | ------- | ------- |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [2685-count-the-number-of-complete-components](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2685-count-the-number-of-complete-components/) | Medium |
+| [3310-remove-methods-from-project](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -262,6 +264,7 @@ Optimized solutions (if applicable).
 | [2685-count-the-number-of-complete-components](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2685-count-the-number-of-complete-components/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
+| [3310-remove-methods-from-project](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
