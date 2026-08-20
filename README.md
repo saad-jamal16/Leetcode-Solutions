@@ -47,6 +47,7 @@ Optimized solutions (if applicable).
 | [2906-construct-product-matrix](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2906-construct-product-matrix/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3069-distribute-elements-into-two-arrays-i/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
@@ -124,6 +125,7 @@ Optimized solutions (if applicable).
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [2069-walking-robot-simulation-ii](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2069-walking-robot-simulation-ii/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/saad-jamal16/Leetcode-Solutions/tree/main/3069-distribute-elements-into-two-arrays-i/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
